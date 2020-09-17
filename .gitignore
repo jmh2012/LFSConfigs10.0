@@ -2,9 +2,10 @@
 /*/
 !/etc/
 /etc/passwd
-/etc/shadow
+/etc/shadow*
 /etc/gshadow
 /etc/sysconfig/*wpa_supplicant*
 /etc/ssh/ssh_host*key*
 /etc/ssh/moduli
 /etc/init.d/*
+!/boot/grub/grub.cfg
