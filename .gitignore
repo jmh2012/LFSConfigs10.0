@@ -7,4 +7,4 @@
 /etc/sysconfig/*wpa_supplicant*
 /etc/ssh/ssh_host*key*
 /etc/ssh/moduli
-
+/etc/init.d/*
