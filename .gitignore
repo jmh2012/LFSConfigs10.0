@@ -1,6 +1,10 @@
+/*
+/*/
+!/etc/
 /etc/passwd
 /etc/shadow
 /etc/gshadow
 /etc/sysconfig/*wpa_supplicant*
 /etc/ssh/ssh_host*key*
 /etc/ssh/moduli
+
