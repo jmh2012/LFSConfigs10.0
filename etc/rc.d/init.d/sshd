@@ -1,0 +1,19 @@
+case "$1" in
+   start)
+        echo "Starting sshd..."
+        /usr/sbin/sshd
+        ;;
+   stop)
+        echo "Stopping sshd..."
+        kill -9 $(pidof sshd)
+        ;;
+   restart)
+        echo "Restarting sshd..."
+        kill -9 $(pidof sshd) && /usr/sbin/sshd
+        ;;
+   *)
+        echo "Usage: $Script {start|stop|restart}"
+        ExitCode=1
+esac
+
+
