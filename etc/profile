@@ -1,3 +1,4 @@
 export LANG=en_US.ISO-8859-1
+export $PATH=$PATH:/usr/local/bin
 export PS1="[\$?] \u@\h:\w > \[$(tput sgr0)\]"
 neofetch
