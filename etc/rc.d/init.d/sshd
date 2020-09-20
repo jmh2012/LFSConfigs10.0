@@ -1,14 +1,14 @@
 case "$1" in
    start)
-        echo "Starting sshd..."
+        echo -n "Starting sshd..."
         /usr/sbin/sshd
         ;;
    stop)
-        echo "Stopping sshd..."
+        echo -n "Stopping sshd..."
         kill -9 $(pidof sshd)
         ;;
    restart)
-        echo "Restarting sshd..."
+        echo -n "Restarting sshd..."
         kill -9 $(pidof sshd) && /usr/sbin/sshd
         ;;
    *)
